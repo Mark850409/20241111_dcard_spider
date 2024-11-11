@@ -1,0 +1,17 @@
+jieba
+wordcloud
+matplotlib
+gradio===4.43.0
+python-dotenv
+seaborn
+Flask-SQLAlchemy
+pandas
+pymysql
+chardet
+gmplot
+folium
+scikit-learn
+geopandas
+selenium
+webdriver_manager
+fake-useragent
