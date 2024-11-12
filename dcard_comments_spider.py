@@ -1,12 +1,14 @@
+import os
 import pandas as pd
 from selenium.webdriver.common.by import By
 from time import sleep
+import requests
 import undetected_chromedriver as uc
-
+import shutil
 # 讀取 CSV 文件，包含文章連結
 article_df = pd.read_csv('dcard_articles.csv')
 article_links = article_df['article_link'].tolist()
-
+article_titles = article_df['title'].tolist()
 # 讓使用者輸入每篇文章要爬取的留言數
 num_comments_to_scrape = int(input("請輸入每篇文章要爬取的留言數量："))
 
@@ -17,14 +19,42 @@ driver = uc.Chrome()
 driver.maximize_window()
 
 comments = []
+image_folder = "dcard_images"
 
-for link in article_links:
+# 移除並重新建立圖片儲存資料夾
+if os.path.exists(image_folder):
+    shutil.rmtree(image_folder)
+os.makedirs(image_folder)
+
+for index, link in enumerate(article_links):
+    title = article_titles[index]  # 獲取文章標題
     try:
         # 前往指定的 Dcard 帖子頁面
         driver.get(link)
 
         # 等待頁面載入
         sleep(5)
+
+        # 抓取文章內的所有圖片
+        picture_elements = driver.find_elements(By.XPATH, "//div[contains(@class, 'd_gz_1nzmc2w c1gs4vo7')]//picture/source")
+        image_urls = set()
+
+        for picture in picture_elements:
+            srcset = picture.get_attribute("srcset")
+            if srcset:
+                url = srcset.split(",")[0].strip().split(" ")[0]
+                image_urls.add(url)
+
+        # 下載所有圖片
+        for idx, img_url in enumerate(image_urls):
+            try:
+                response = requests.get(img_url)
+                if response.status_code == 200:
+                    file_path = os.path.join(image_folder, f"{link.split('/')[-1]}_{idx}.jpg")
+                    with open(file_path, 'wb') as file:
+                        file.write(response.content)
+            except Exception as e:
+                print(f"下載圖片 {img_url} 時發生錯誤：", e)
 
         last_height = driver.execute_script("return document.body.scrollHeight")
         scraped_comments = 0
@@ -58,6 +88,7 @@ for link in article_links:
                     if not any(comment['text'] == comment_text and comment['article_link'] == link for comment in comments):
                         # 將學校名稱、留言內容和時間添加到結果列表中
                         comments.append({
+                            "title": title,
                             "article_link": link,
                             "school": school_name,
                             "text": comment_text,
@@ -92,7 +123,7 @@ driver.quit()
 # 將結果寫入 CSV 檔案
 if comments:
     df = pd.DataFrame(comments)
-    df.columns = ['article_link', 'school', 'text', 'time']  # 設定欄位名稱為英文
+    df.columns = ['title', 'article_link', 'school', 'text', 'time']  # 設定欄位名稱
     df.to_csv('comments.csv', index=False, encoding='utf-8-sig')  # 使用 utf-8-sig 編碼寫入 CSV
     print("已成功將留言儲存到 comments.csv 中")
 else:
