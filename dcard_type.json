@@ -1,0 +1,1989 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "感情",
+            "alias": "relationship"
+        },
+        {
+            "id": 2,
+            "name": "YouTuber",
+            "alias": "youtuber"
+        },
+        {
+            "id": 3,
+            "name": "閒聊",
+            "alias": "talk"
+        },
+        {
+            "id": 4,
+            "name": "心情",
+            "alias": "mood"
+        },
+        {
+            "id": 5,
+            "name": "女孩",
+            "alias": "girl"
+        },
+        {
+            "id": 6,
+            "name": "美妝",
+            "alias": "makeup"
+        },
+        {
+            "id": 7,
+            "name": "工作",
+            "alias": "job"
+        },
+        {
+            "id": 8,
+            "name": "研究所",
+            "alias": "graduate_school"
+        },
+        {
+            "id": 9,
+            "name": "理財",
+            "alias": "money"
+        },
+        {
+            "id": 10,
+            "name": "彩虹",
+            "alias": "rainbow"
+        },
+        {
+            "id": 11,
+            "name": "追星",
+            "alias": "entertainer"
+        },
+        {
+            "id": 12,
+            "name": "科技業",
+            "alias": "tech_job"
+        },
+        {
+            "id": 13,
+            "name": "美食",
+            "alias": "food"
+        },
+        {
+            "id": 14,
+            "name": "網路購物",
+            "alias": "buyonline"
+        },
+        {
+            "id": 15,
+            "name": "時事",
+            "alias": "trending"
+        },
+        {
+            "id": 16,
+            "name": "梗圖",
+            "alias": "meme"
+        },
+        {
+            "id": 17,
+            "name": "穿搭",
+            "alias": "dressup"
+        },
+        {
+            "id": 18,
+            "name": "股票",
+            "alias": "stock"
+        },
+        {
+            "id": 19,
+            "name": "親子",
+            "alias": "parentchild"
+        },
+        {
+            "id": 20,
+            "name": "醫美",
+            "alias": "facelift"
+        },
+        {
+            "id": 21,
+            "name": "旅遊",
+            "alias": "travel"
+        },
+        {
+            "id": 22,
+            "name": "公職",
+            "alias": "gov_employee"
+        },
+        {
+            "id": 23,
+            "name": "日本旅遊",
+            "alias": "japan_travel"
+        },
+        {
+            "id": 24,
+            "name": "二手交易",
+            "alias": "second_hand"
+        },
+        {
+            "id": 25,
+            "name": "牙齒矯正",
+            "alias": "orthodontics"
+        },
+        {
+            "id": 26,
+            "name": "動漫",
+            "alias": "acg"
+        },
+        {
+            "id": 27,
+            "name": "寵物",
+            "alias": "pet"
+        },
+        {
+            "id": 28,
+            "name": "信用卡",
+            "alias": "creditcard"
+        },
+        {
+            "id": 29,
+            "name": "精品",
+            "alias": "boutique"
+        },
+        {
+            "id": 30,
+            "name": "汽車",
+            "alias": "car"
+        },
+        {
+            "id": 31,
+            "name": "結婚",
+            "alias": "marriage"
+        },
+        {
+            "id": 32,
+            "name": "有趣",
+            "alias": "funny"
+        },
+        {
+            "id": 33,
+            "name": "3C",
+            "alias": "3c"
+        },
+        {
+            "id": 34,
+            "name": "購屋",
+            "alias": "house_purchase"
+        },
+        {
+            "id": 35,
+            "name": "英雄聯盟",
+            "alias": "lol"
+        },
+        {
+            "id": 36,
+            "name": "星座",
+            "alias": "horoscopes"
+        },
+        {
+            "id": 37,
+            "name": "Apple",
+            "alias": "apple"
+        },
+        {
+            "id": 38,
+            "name": "考試",
+            "alias": "exam"
+        },
+        {
+            "id": 39,
+            "name": "烹飪",
+            "alias": "cooking"
+        },
+        {
+            "id": 40,
+            "name": "法律人",
+            "alias": "lawyer"
+        },
+        {
+            "id": 41,
+            "name": "反詐騙",
+            "alias": "anti_fraud"
+        },
+        {
+            "id": 42,
+            "name": "健身",
+            "alias": "fitness"
+        },
+        {
+            "id": 43,
+            "name": "傳說對決",
+            "alias": "aov"
+        },
+        {
+            "id": 44,
+            "name": "升大學考試",
+            "alias": "freshman"
+        },
+        {
+            "id": 45,
+            "name": "機車",
+            "alias": "vehicle"
+        },
+        {
+            "id": 46,
+            "name": "美髮",
+            "alias": "hairsalon"
+        },
+        {
+            "id": 47,
+            "name": "減肥",
+            "alias": "weight_loss"
+        },
+        {
+            "id": 48,
+            "name": "隱形眼鏡",
+            "alias": "contact_lens"
+        },
+        {
+            "id": 49,
+            "name": "軍旅",
+            "alias": "military"
+        },
+        {
+            "id": 50,
+            "name": "教師",
+            "alias": "teacher"
+        },
+        {
+            "id": 51,
+            "name": "金融",
+            "alias": "financial"
+        },
+        {
+            "id": 52,
+            "name": "Netflix",
+            "alias": "netflix"
+        },
+        {
+            "id": 53,
+            "name": "居家生活",
+            "alias": "house"
+        },
+        {
+            "id": 54,
+            "name": "醫師",
+            "alias": "meddr"
+        },
+        {
+            "id": 55,
+            "name": "美妝團購",
+            "alias": "buymakeuptogether"
+        },
+        {
+            "id": 56,
+            "name": "問答",
+            "alias": "ask"
+        },
+        {
+            "id": 57,
+            "name": "護理",
+            "alias": "nursing"
+        },
+        {
+            "id": 58,
+            "name": "手搖",
+            "alias": "boba"
+        },
+        {
+            "id": 59,
+            "name": "租屋",
+            "alias": "rent"
+        },
+        {
+            "id": 60,
+            "name": "昆蟲",
+            "alias": "insect"
+        },
+        {
+            "id": 61,
+            "name": "留學",
+            "alias": "studyabroad"
+        },
+        {
+            "id": 62,
+            "name": "SCOOL",
+            "alias": "scool"
+        },
+        {
+            "id": 63,
+            "name": "香氛",
+            "alias": "fragrance"
+        },
+        {
+            "id": 64,
+            "name": "塔羅",
+            "alias": "tarot"
+        },
+        {
+            "id": 65,
+            "name": "吉伊卡哇",
+            "alias": "chiikawa"
+        },
+        {
+            "id": 66,
+            "name": "票券交流",
+            "alias": "tickets"
+        },
+        {
+            "id": 67,
+            "name": "韓國旅遊",
+            "alias": "korea_travel"
+        },
+        {
+            "id": 68,
+            "name": "靈異",
+            "alias": "marvel"
+        },
+        {
+            "id": 69,
+            "name": "美甲",
+            "alias": "manicure"
+        },
+        {
+            "id": 70,
+            "name": "戲劇綜藝",
+            "alias": "tvepisode"
+        },
+        {
+            "id": 71,
+            "name": "省錢",
+            "alias": "savemoney"
+        },
+        {
+            "id": 72,
+            "name": "航空",
+            "alias": "aviation"
+        },
+        {
+            "id": 73,
+            "name": "超商",
+            "alias": "cvs"
+        },
+        {
+            "id": 74,
+            "name": "Webtoon",
+            "alias": "webtoon"
+        },
+        {
+            "id": 75,
+            "name": "語言",
+            "alias": "language"
+        },
+        {
+            "id": 76,
+            "name": "Stray Kids",
+            "alias": "straykids"
+        },
+        {
+            "id": 77,
+            "name": "國營",
+            "alias": "gov_owned"
+        },
+        {
+            "id": 78,
+            "name": "楓之谷",
+            "alias": "maple_story"
+        },
+        {
+            "id": 79,
+            "name": "會計",
+            "alias": "accounting"
+        },
+        {
+            "id": 80,
+            "name": "家教",
+            "alias": "tutor"
+        },
+        {
+            "id": 81,
+            "name": "小說",
+            "alias": "novel"
+        },
+        {
+            "id": 82,
+            "name": "台中",
+            "alias": "taichung"
+        },
+        {
+            "id": 83,
+            "name": "原子少年",
+            "alias": "atomboyz"
+        },
+        {
+            "id": 84,
+            "name": "SEVENTEEN",
+            "alias": "seventeen"
+        },
+        {
+            "id": 85,
+            "name": "英文檢定",
+            "alias": "english_tests"
+        },
+        {
+            "id": 86,
+            "name": "警察",
+            "alias": "police"
+        },
+        {
+            "id": 87,
+            "name": "外送",
+            "alias": "delivery"
+        },
+        {
+            "id": 88,
+            "name": "TWICE",
+            "alias": "twice"
+        },
+        {
+            "id": 89,
+            "name": "保險業",
+            "alias": "insurance"
+        },
+        {
+            "id": 90,
+            "name": "重考",
+            "alias": "resit"
+        },
+        {
+            "id": 91,
+            "name": "日本生活",
+            "alias": "japan_life"
+        },
+        {
+            "id": 92,
+            "name": "梗影",
+            "alias": "funny_video"
+        },
+        {
+            "id": 93,
+            "name": "籃球",
+            "alias": "basketball"
+        },
+        {
+            "id": 94,
+            "name": "攝影",
+            "alias": "photography"
+        },
+        {
+            "id": 95,
+            "name": "中職",
+            "alias": "cpbl"
+        },
+        {
+            "id": 96,
+            "name": "五月天",
+            "alias": "mayday"
+        },
+        {
+            "id": 97,
+            "name": "寶可夢",
+            "alias": "pokemon"
+        },
+        {
+            "id": 98,
+            "name": "粉刺愛好者",
+            "alias": "acnelovers"
+        },
+        {
+            "id": 99,
+            "name": "遊戲",
+            "alias": "game"
+        },
+        {
+            "id": 100,
+            "name": "IVE",
+            "alias": "ive"
+        },
+        {
+            "id": 101,
+            "name": "泰國旅遊",
+            "alias": "tailand_travel"
+        },
+        {
+            "id": 102,
+            "name": "美股",
+            "alias": "us_stock"
+        },
+        {
+            "id": 103,
+            "name": "區塊鏈",
+            "alias": "blockchain"
+        },
+        {
+            "id": 104,
+            "name": "App",
+            "alias": "app"
+        },
+        {
+            "id": 105,
+            "name": "特戰英豪",
+            "alias": "valorant"
+        },
+        {
+            "id": 106,
+            "name": "心理",
+            "alias": "psychology"
+        },
+        {
+            "id": 107,
+            "name": "水晶礦石",
+            "alias": "crystal"
+        },
+        {
+            "id": 108,
+            "name": "重機",
+            "alias": "heavy_motorcycle"
+        },
+        {
+            "id": 109,
+            "name": "醫事人員",
+            "alias": "med"
+        },
+        {
+            "id": 110,
+            "name": "打工度假",
+            "alias": "workingholiday"
+        },
+        {
+            "id": 111,
+            "name": "手作",
+            "alias": "handicrafts"
+        },
+        {
+            "id": 112,
+            "name": "課程",
+            "alias": "course"
+        },
+        {
+            "id": 113,
+            "name": "贈物",
+            "alias": "gift"
+        },
+        {
+            "id": 114,
+            "name": "軟體工程師",
+            "alias": "softwareengineer"
+        },
+        {
+            "id": 115,
+            "name": "海外工作",
+            "alias": "oversea_job"
+        },
+        {
+            "id": 116,
+            "name": "兩棲爬寵",
+            "alias": "reptile"
+        },
+        {
+            "id": 117,
+            "name": "女性向遊戲",
+            "alias": "otome_game"
+        },
+        {
+            "id": 118,
+            "name": "荒野亂鬥",
+            "alias": "brawl_stars"
+        },
+        {
+            "id": 119,
+            "name": "電影",
+            "alias": "movie"
+        },
+        {
+            "id": 120,
+            "name": "ACG 迷因",
+            "alias": "acg_meme"
+        },
+        {
+            "id": 121,
+            "name": "月老",
+            "alias": "chinese_cupid"
+        },
+        {
+            "id": 122,
+            "name": "BLACKPINK",
+            "alias": "blackpink"
+        },
+        {
+            "id": 123,
+            "name": "創業",
+            "alias": "startup"
+        },
+        {
+            "id": 124,
+            "name": "偽娘",
+            "alias": "otokonoko"
+        },
+        {
+            "id": 125,
+            "name": "原神",
+            "alias": "genshin"
+        },
+        {
+            "id": 126,
+            "name": "羽球",
+            "alias": "badminton"
+        },
+        {
+            "id": 127,
+            "name": "球鞋",
+            "alias": "sneakers"
+        },
+        {
+            "id": 128,
+            "name": "機票",
+            "alias": "planeticket"
+        },
+        {
+            "id": 129,
+            "name": "命理好好玩",
+            "alias": "fortune_telling"
+        },
+        {
+            "id": 130,
+            "name": "韓國生活",
+            "alias": "korea_study"
+        },
+        {
+            "id": 131,
+            "name": "進擊的巨人",
+            "alias": "attack_on_titan"
+        },
+        {
+            "id": 132,
+            "name": "音樂",
+            "alias": "music"
+        },
+        {
+            "id": 133,
+            "name": "幼教老師",
+            "alias": "kindergartner"
+        },
+        {
+            "id": 134,
+            "name": "舞蹈",
+            "alias": "dance"
+        },
+        {
+            "id": 135,
+            "name": "Super Junior",
+            "alias": "superjunior"
+        },
+        {
+            "id": 136,
+            "name": "設計",
+            "alias": "design"
+        },
+        {
+            "id": 137,
+            "name": "無痕生活",
+            "alias": "ecolife"
+        },
+        {
+            "id": 138,
+            "name": "跨性別",
+            "alias": "trans"
+        },
+        {
+            "id": 139,
+            "name": "運動",
+            "alias": "sport"
+        },
+        {
+            "id": 140,
+            "name": "珠寶飾品",
+            "alias": "jewelry"
+        },
+        {
+            "id": 141,
+            "name": "學士後",
+            "alias": "post_bachelor"
+        },
+        {
+            "id": 142,
+            "name": "TOMORROW X TOGETHER",
+            "alias": "tomorrowxtogether"
+        },
+        {
+            "id": 143,
+            "name": "日語",
+            "alias": "japanese"
+        },
+        {
+            "id": 144,
+            "name": "INFP",
+            "alias": "infp"
+        },
+        {
+            "id": 145,
+            "name": "量販店",
+            "alias": "hypermarket"
+        },
+        {
+            "id": 146,
+            "name": "暈船互助會",
+            "alias": "lovesick_community"
+        },
+        {
+            "id": 147,
+            "name": "速食",
+            "alias": "fastfood"
+        },
+        {
+            "id": 148,
+            "name": "美容美體",
+            "alias": "beautification"
+        },
+        {
+            "id": 149,
+            "name": "插畫",
+            "alias": "illustration"
+        },
+        {
+            "id": 150,
+            "name": "男性保養",
+            "alias": "mancare"
+        },
+        {
+            "id": 151,
+            "name": "身心障礙",
+            "alias": "disabled"
+        },
+        {
+            "id": 152,
+            "name": "求職",
+            "alias": "job_search"
+        },
+        {
+            "id": 153,
+            "name": "藥學",
+            "alias": "pharmacy"
+        },
+        {
+            "id": 154,
+            "name": "摩爾莊園",
+            "alias": "mole_world"
+        },
+        {
+            "id": 155,
+            "name": "MBTI",
+            "alias": "mbti"
+        },
+        {
+            "id": 156,
+            "name": "呷菜",
+            "alias": "go_vege"
+        },
+        {
+            "id": 157,
+            "name": "(G)I-DLE",
+            "alias": "gidle"
+        },
+        {
+            "id": 158,
+            "name": "願望",
+            "alias": "desires"
+        },
+        {
+            "id": 159,
+            "name": "淘寶",
+            "alias": "taobao"
+        },
+        {
+            "id": 160,
+            "name": "台南",
+            "alias": "tainan"
+        },
+        {
+            "id": 161,
+            "name": "崩壞：星穹鐵道",
+            "alias": "honkai"
+        },
+        {
+            "id": 162,
+            "name": "大學生活",
+            "alias": "collegelife"
+        },
+        {
+            "id": 163,
+            "name": "航海王",
+            "alias": "onepiece"
+        },
+        {
+            "id": 164,
+            "name": "刺青",
+            "alias": "tattoo"
+        },
+        {
+            "id": 165,
+            "name": "哈利波特",
+            "alias": "harry_potter"
+        },
+        {
+            "id": 166,
+            "name": "交通運輸",
+            "alias": "transport"
+        },
+        {
+            "id": 167,
+            "name": "精品錶",
+            "alias": "luxury_watch"
+        },
+        {
+            "id": 168,
+            "name": "玩具",
+            "alias": "toy"
+        },
+        {
+            "id": 169,
+            "name": "行動支付",
+            "alias": "mobile_payment"
+        },
+        {
+            "id": 170,
+            "name": "男生穿搭",
+            "alias": "men_dressup"
+        },
+        {
+            "id": 171,
+            "name": "植物",
+            "alias": "plant"
+        },
+        {
+            "id": 172,
+            "name": "獨立音樂",
+            "alias": "indiemusic"
+        },
+        {
+            "id": 173,
+            "name": "數學",
+            "alias": "math"
+        },
+        {
+            "id": 174,
+            "name": "皮拉提斯",
+            "alias": "pilates"
+        },
+        {
+            "id": 175,
+            "name": "JPOP",
+            "alias": "jpop"
+        },
+        {
+            "id": 176,
+            "name": "換物",
+            "alias": "barter"
+        },
+        {
+            "id": 177,
+            "name": "社會工作",
+            "alias": "social_work"
+        },
+        {
+            "id": 178,
+            "name": "書籍",
+            "alias": "book"
+        },
+        {
+            "id": 179,
+            "name": "第五人格",
+            "alias": "identity_v"
+        },
+        {
+            "id": 180,
+            "name": "新竹",
+            "alias": "hsinchu"
+        },
+        {
+            "id": 181,
+            "name": "消防",
+            "alias": "I_I_IX"
+        },
+        {
+            "id": 182,
+            "name": "品酒",
+            "alias": "alcohol"
+        },
+        {
+            "id": 183,
+            "name": "笑話",
+            "alias": "joke"
+        },
+        {
+            "id": 184,
+            "name": "Disney+",
+            "alias": "disney_plus"
+        },
+        {
+            "id": 185,
+            "name": "視聽設備",
+            "alias": "av_equipment"
+        },
+        {
+            "id": 186,
+            "name": "百合",
+            "alias": "girlslove"
+        },
+        {
+            "id": 187,
+            "name": "BABYMONSTER",
+            "alias": "babymonster"
+        },
+        {
+            "id": 188,
+            "name": "水族",
+            "alias": "aquarium"
+        },
+        {
+            "id": 189,
+            "name": "蘇打綠",
+            "alias": "sodagreen"
+        },
+        {
+            "id": 190,
+            "name": "建議回饋",
+            "alias": "dcard"
+        },
+        {
+            "id": 191,
+            "name": "手遊",
+            "alias": "mobilegame"
+        },
+        {
+            "id": 192,
+            "name": "棒球",
+            "alias": "baseball"
+        },
+        {
+            "id": 193,
+            "name": "零食",
+            "alias": "snack"
+        },
+        {
+            "id": 194,
+            "name": "中國戲劇綜藝",
+            "alias": "chinesedrama"
+        },
+        {
+            "id": 195,
+            "name": "愛的榮耀",
+            "alias": "golry_of_love"
+        },
+        {
+            "id": 196,
+            "name": "VTuber",
+            "alias": "vtuber"
+        },
+        {
+            "id": 197,
+            "name": "MLB",
+            "alias": "mlb"
+        },
+        {
+            "id": 198,
+            "name": "韓劇",
+            "alias": "kr_drama"
+        },
+        {
+            "id": 199,
+            "name": "aespa",
+            "alias": "aespa"
+        },
+        {
+            "id": 200,
+            "name": "戀與深空",
+            "alias": "love_deepspace"
+        },
+        {
+            "id": 201,
+            "name": "投票",
+            "alias": "vote"
+        },
+        {
+            "id": 202,
+            "name": "日劇",
+            "alias": "japan_drama"
+        },
+        {
+            "id": 203,
+            "name": "IUAENA",
+            "alias": "iuaena"
+        },
+        {
+            "id": 204,
+            "name": "MAMAMOO",
+            "alias": "mamamoo"
+        },
+        {
+            "id": 205,
+            "name": "三星",
+            "alias": "samsung"
+        },
+        {
+            "id": 206,
+            "name": "NCT",
+            "alias": "nct"
+        },
+        {
+            "id": 207,
+            "name": "住宿休息",
+            "alias": "hotel"
+        },
+        {
+            "id": 208,
+            "name": "哆啦A夢",
+            "alias": "doraemon"
+        },
+        {
+            "id": 209,
+            "name": "排球少年",
+            "alias": "haikyu"
+        },
+        {
+            "id": 210,
+            "name": "登山",
+            "alias": "hiking"
+        },
+        {
+            "id": 211,
+            "name": "環球影城",
+            "alias": "universalstudios"
+        },
+        {
+            "id": 212,
+            "name": "鐵道",
+            "alias": "railway"
+        },
+        {
+            "id": 213,
+            "name": "NBA",
+            "alias": "nba"
+        },
+        {
+            "id": 214,
+            "name": "我推的孩子",
+            "alias": "oshinoko"
+        },
+        {
+            "id": 215,
+            "name": "贊助",
+            "alias": "sponsored"
+        },
+        {
+            "id": 216,
+            "name": "咖啡",
+            "alias": "coffee"
+        },
+        {
+            "id": 217,
+            "name": "ChatGPT",
+            "alias": "chatgpt"
+        },
+        {
+            "id": 218,
+            "name": "博士",
+            "alias": "phd"
+        },
+        {
+            "id": 219,
+            "name": "EXO",
+            "alias": "exo"
+        },
+        {
+            "id": 220,
+            "name": "電子音樂",
+            "alias": "edm"
+        },
+        {
+            "id": 221,
+            "name": "桌遊",
+            "alias": "board_game"
+        },
+        {
+            "id": 222,
+            "name": "APEX 英雄",
+            "alias": "apex_legends"
+        },
+        {
+            "id": 223,
+            "name": "咒術迴戰",
+            "alias": "jujutsu_kaisen"
+        },
+        {
+            "id": 224,
+            "name": "Cosplay",
+            "alias": "cosplay"
+        },
+        {
+            "id": 225,
+            "name": "自由潛水",
+            "alias": "free_dive"
+        },
+        {
+            "id": 226,
+            "name": "Nintendo Switch",
+            "alias": "switch"
+        },
+        {
+            "id": 227,
+            "name": "大型賽事",
+            "alias": "sportsevents"
+        },
+        {
+            "id": 228,
+            "name": "迪士尼",
+            "alias": "disney"
+        },
+        {
+            "id": 229,
+            "name": "BTS",
+            "alias": "bts"
+        },
+        {
+            "id": 230,
+            "name": "餐飲業",
+            "alias": "catering"
+        },
+        {
+            "id": 231,
+            "name": "少女時代",
+            "alias": "girls_generation"
+        },
+        {
+            "id": 232,
+            "name": "打工職缺",
+            "alias": "parttime"
+        },
+        {
+            "id": 233,
+            "name": "歐洲生活",
+            "alias": "life_in_europe"
+        },
+        {
+            "id": 234,
+            "name": "Google/Android",
+            "alias": "google"
+        },
+        {
+            "id": 235,
+            "name": "NewJeans",
+            "alias": "newjeans"
+        },
+        {
+            "id": 236,
+            "name": "高雄",
+            "alias": "kaohsiung"
+        },
+        {
+            "id": 237,
+            "name": "逢甲大學二手物交流",
+            "alias": "fcu_secondhand"
+        },
+        {
+            "id": 238,
+            "name": "畢業季",
+            "alias": "graduate"
+        },
+        {
+            "id": 239,
+            "name": "中國明星",
+            "alias": "china_star"
+        },
+        {
+            "id": 240,
+            "name": "跑步",
+            "alias": "running"
+        },
+        {
+            "id": 241,
+            "name": "ITZY",
+            "alias": "itzy"
+        },
+        {
+            "id": 242,
+            "name": "泰國影視",
+            "alias": "thai_series"
+        },
+        {
+            "id": 243,
+            "name": "樂高",
+            "alias": "lego"
+        },
+        {
+            "id": 244,
+            "name": "GFRIEND",
+            "alias": "gfriend"
+        },
+        {
+            "id": 245,
+            "name": "排球",
+            "alias": "volleyball"
+        },
+        {
+            "id": 246,
+            "name": "文具",
+            "alias": "stationery"
+        },
+        {
+            "id": 247,
+            "name": "行車記錄器",
+            "alias": "dashcam"
+        },
+        {
+            "id": 248,
+            "name": "嘉義",
+            "alias": "chiayi"
+        },
+        {
+            "id": 249,
+            "name": "柯南",
+            "alias": "conan"
+        },
+        {
+            "id": 250,
+            "name": "LE SSERAFIM",
+            "alias": "lesserafim"
+        },
+        {
+            "id": 251,
+            "name": "水肺潛水",
+            "alias": "scuba_diving"
+        },
+        {
+            "id": 252,
+            "name": "僑生交流",
+            "alias": "hkmactwexchange"
+        },
+        {
+            "id": 253,
+            "name": "Sky 光遇",
+            "alias": "sky"
+        },
+        {
+            "id": 254,
+            "name": "鳴潮",
+            "alias": "wutheringwaves"
+        },
+        {
+            "id": 255,
+            "name": "SHINee",
+            "alias": "shinee"
+        },
+        {
+            "id": 256,
+            "name": "菱格世代 DD52",
+            "alias": "dd52"
+        },
+        {
+            "id": 257,
+            "name": "任天堂",
+            "alias": "nintendo"
+        },
+        {
+            "id": 258,
+            "name": "韓星",
+            "alias": "korea_star"
+        },
+        {
+            "id": 259,
+            "name": "文化大學二手物交流",
+            "alias": "pccu_secondhand"
+        },
+        {
+            "id": 260,
+            "name": "生理用品",
+            "alias": "menstrual"
+        },
+        {
+            "id": 261,
+            "name": "曬貓",
+            "alias": "show_cats"
+        },
+        {
+            "id": 262,
+            "name": "芳療",
+            "alias": "aromatherapy"
+        },
+        {
+            "id": 263,
+            "name": "歐美影集",
+            "alias": "ea_series"
+        },
+        {
+            "id": 264,
+            "name": "西洋音樂",
+            "alias": "western_music"
+        },
+        {
+            "id": 265,
+            "name": "小事公益",
+            "alias": "smallgoodthings"
+        },
+        {
+            "id": 266,
+            "name": "PUBG",
+            "alias": "pubg"
+        },
+        {
+            "id": 267,
+            "name": "自由工作者",
+            "alias": "freelancer"
+        },
+        {
+            "id": 268,
+            "name": "實習職缺",
+            "alias": "intern"
+        },
+        {
+            "id": 269,
+            "name": "Podcast",
+            "alias": "podcast"
+        },
+        {
+            "id": 270,
+            "name": "開板連署",
+            "alias": "newforum"
+        },
+        {
+            "id": 271,
+            "name": "密室逃脫",
+            "alias": "escapegame"
+        },
+        {
+            "id": 272,
+            "name": "劇本殺",
+            "alias": "murder_mystery"
+        },
+        {
+            "id": 273,
+            "name": "ENHYPEN",
+            "alias": "enhypen"
+        },
+        {
+            "id": 274,
+            "name": "劇場",
+            "alias": "theater"
+        },
+        {
+            "id": 275,
+            "name": "AKB48 集團",
+            "alias": "akb48_group"
+        },
+        {
+            "id": 276,
+            "name": "Running Man",
+            "alias": "running_man"
+        },
+        {
+            "id": 277,
+            "name": "傑尼斯",
+            "alias": "johnnys"
+        },
+        {
+            "id": 278,
+            "name": "NMIXX",
+            "alias": "nmixx"
+        },
+        {
+            "id": 279,
+            "name": "詩文",
+            "alias": "literature"
+        },
+        {
+            "id": 280,
+            "name": "少女漫畫",
+            "alias": "shojo_manga"
+        },
+        {
+            "id": 281,
+            "name": "智慧家庭",
+            "alias": "smart_home"
+        },
+        {
+            "id": 282,
+            "name": "以閃亮之名",
+            "alias": "lifemakeover"
+        },
+        {
+            "id": 283,
+            "name": "吉他",
+            "alias": "guitar"
+        },
+        {
+            "id": 284,
+            "name": "瑜珈",
+            "alias": "yoga"
+        },
+        {
+            "id": 285,
+            "name": "坂道 46",
+            "alias": "nogizaka46"
+        },
+        {
+            "id": 286,
+            "name": "海綿寶寶",
+            "alias": "spongebob"
+        },
+        {
+            "id": 287,
+            "name": "蠟筆小新",
+            "alias": "shin_chan"
+        },
+        {
+            "id": 288,
+            "name": "啦啦隊女孩",
+            "alias": "cheergirls"
+        },
+        {
+            "id": 289,
+            "name": "房仲業",
+            "alias": "realtor"
+        },
+        {
+            "id": 290,
+            "name": "魔物獵人",
+            "alias": "monster_hunter"
+        },
+        {
+            "id": 291,
+            "name": "求職新手互助區",
+            "alias": "job_seeking_noobs"
+        },
+        {
+            "id": 292,
+            "name": "跨國戀",
+            "alias": "crosscultural_relationship"
+        },
+        {
+            "id": 293,
+            "name": "屏東",
+            "alias": "Pingtung"
+        },
+        {
+            "id": 294,
+            "name": "BOYS PLANET",
+            "alias": "boysplanet"
+        },
+        {
+            "id": 295,
+            "name": "PlayStation",
+            "alias": "playstation"
+        },
+        {
+            "id": 296,
+            "name": "未來少女",
+            "alias": "next_girlz"
+        },
+        {
+            "id": 297,
+            "name": "撞球",
+            "alias": "billiards"
+        },
+        {
+            "id": 298,
+            "name": "機械鍵盤",
+            "alias": "mechanical_keyboard"
+        },
+        {
+            "id": 299,
+            "name": "嘻哈",
+            "alias": "hiphop"
+        },
+        {
+            "id": 300,
+            "name": "建築",
+            "alias": "architecture"
+        },
+        {
+            "id": 301,
+            "name": "多元計程車業",
+            "alias": "diversified_taxi"
+        },
+        {
+            "id": 302,
+            "name": "官方公告",
+            "alias": "announcement"
+        },
+        {
+            "id": 303,
+            "name": "COVID-19",
+            "alias": "2019_ncov"
+        },
+        {
+            "id": 304,
+            "name": "行銷",
+            "alias": "marketing"
+        },
+        {
+            "id": 305,
+            "name": "服務業",
+            "alias": "service"
+        },
+        {
+            "id": 306,
+            "name": "星之卡比",
+            "alias": "kirby"
+        },
+        {
+            "id": 307,
+            "name": "Steam",
+            "alias": "steam"
+        },
+        {
+            "id": 308,
+            "name": "桌球",
+            "alias": "table_tennis"
+        },
+        {
+            "id": 309,
+            "name": "黎明死線",
+            "alias": "dead_by_daylight"
+        },
+        {
+            "id": 310,
+            "name": "宇宙少女",
+            "alias": "cosmicgirls"
+        },
+        {
+            "id": 311,
+            "name": "網球",
+            "alias": "tennis"
+        },
+        {
+            "id": 312,
+            "name": "英雄聯盟：激鬥峽谷",
+            "alias": "lolm"
+        },
+        {
+            "id": 313,
+            "name": "選秀節目",
+            "alias": "talent_show"
+        },
+        {
+            "id": 314,
+            "name": "高爾夫",
+            "alias": "golfing"
+        },
+        {
+            "id": 315,
+            "name": "動物森友會",
+            "alias": "animal_crossing"
+        },
+        {
+            "id": 316,
+            "name": "F1",
+            "alias": "f1"
+        },
+        {
+            "id": 317,
+            "name": "神魔之塔",
+            "alias": "tower_of_saviors"
+        },
+        {
+            "id": 318,
+            "name": "Minecraft",
+            "alias": "minecraft"
+        },
+        {
+            "id": 319,
+            "name": "全明星系列",
+            "alias": "allstarsportsday"
+        },
+        {
+            "id": 320,
+            "name": "ATEEZ",
+            "alias": "ateez"
+        },
+        {
+            "id": 321,
+            "name": "日本明星",
+            "alias": "japan_star"
+        },
+        {
+            "id": 322,
+            "name": "ZEROBASEONE",
+            "alias": "zerobaseone"
+        },
+        {
+            "id": 323,
+            "name": "足球",
+            "alias": "soccer"
+        },
+        {
+            "id": 324,
+            "name": "災害回報",
+            "alias": "disaster"
+        },
+        {
+            "id": 325,
+            "name": "單車",
+            "alias": "cycling"
+        },
+        {
+            "id": 326,
+            "name": "XG",
+            "alias": "xg"
+        },
+        {
+            "id": 327,
+            "name": "管理顧問業",
+            "alias": "management_consulting"
+        },
+        {
+            "id": 328,
+            "name": "戀綜",
+            "alias": "loverealityshow"
+        },
+        {
+            "id": 329,
+            "name": "藍色監獄",
+            "alias": "bluelock"
+        },
+        {
+            "id": 330,
+            "name": "蛋仔派對",
+            "alias": "eggyparty"
+        },
+        {
+            "id": 331,
+            "name": "獨立遊戲",
+            "alias": "indie_game"
+        },
+        {
+            "id": 332,
+            "name": "機車旅遊",
+            "alias": "scooter_tour"
+        },
+        {
+            "id": 333,
+            "name": "特攝",
+            "alias": "sfx"
+        },
+        {
+            "id": 334,
+            "name": "電競實況",
+            "alias": "esports"
+        },
+        {
+            "id": 335,
+            "name": "INFINITE",
+            "alias": "infinite"
+        },
+        {
+            "id": 336,
+            "name": "PC Game",
+            "alias": "pc_game"
+        },
+        {
+            "id": 337,
+            "name": "前端工程師",
+            "alias": "f2e"
+        },
+        {
+            "id": 338,
+            "name": "社群小編",
+            "alias": "social_media_editors"
+        },
+        {
+            "id": 339,
+            "name": "防疫生活",
+            "alias": "stayhome"
+        },
+        {
+            "id": 340,
+            "name": "AI工具交誼廳",
+            "alias": "ai_tool_lounge"
+        },
+        {
+            "id": 341,
+            "name": "人資",
+            "alias": "human_resource"
+        },
+        {
+            "id": 342,
+            "name": "ENFP",
+            "alias": "enfp"
+        },
+        {
+            "id": 343,
+            "name": "哈利波特：魔法覺醒",
+            "alias": "harrypottermagicawakened"
+        },
+        {
+            "id": 344,
+            "name": "GOT7",
+            "alias": "got7"
+        },
+        {
+            "id": 345,
+            "name": "光與夜之戀",
+            "alias": "lightandnight"
+        },
+        {
+            "id": 346,
+            "name": "復古",
+            "alias": "vintage"
+        },
+        {
+            "id": 347,
+            "name": "科學",
+            "alias": "science"
+        },
+        {
+            "id": 348,
+            "name": "拉麵",
+            "alias": "ramen"
+        },
+        {
+            "id": 349,
+            "name": "電資",
+            "alias": "ee_and_es"
+        },
+        {
+            "id": 350,
+            "name": "RIIZE",
+            "alias": "riize"
+        },
+        {
+            "id": 351,
+            "name": "彰化",
+            "alias": "changhua"
+        },
+        {
+            "id": 352,
+            "name": "薑餅人王國",
+            "alias": "cookie_run_kingdom"
+        },
+        {
+            "id": 353,
+            "name": "Xbox",
+            "alias": "xbox"
+        },
+        {
+            "id": 354,
+            "name": "管樂",
+            "alias": "wind_band"
+        },
+        {
+            "id": 355,
+            "name": "天天玩樂園",
+            "alias": "play_together"
+        },
+        {
+            "id": 356,
+            "name": "跑跑卡丁車",
+            "alias": "kart_rider"
+        },
+        {
+            "id": 357,
+            "name": "鬼滅之刃",
+            "alias": "kimetsu"
+        },
+        {
+            "id": 358,
+            "name": "JoJo 的奇妙冒險",
+            "alias": "jojos_bizarre_adventure"
+        },
+        {
+            "id": 359,
+            "name": "歐美實境秀",
+            "alias": "ea_realityshow"
+        },
+        {
+            "id": 360,
+            "name": "ENFJ",
+            "alias": "enfj"
+        },
+        {
+            "id": 361,
+            "name": "恐怖漫畫",
+            "alias": "horrormanga"
+        },
+        {
+            "id": 362,
+            "name": "Ozone",
+            "alias": "ozone"
+        },
+        {
+            "id": 363,
+            "name": "柏德之門",
+            "alias": "baldursgate"
+        },
+        {
+            "id": 364,
+            "name": "酷玩樂團",
+            "alias": "coldplay"
+        },
+        {
+            "id": 365,
+            "name": "黑神話：悟空",
+            "alias": "black_myth_wukong"
+        },
+        {
+            "id": 366,
+            "name": "美國生活",
+            "alias": "usa_life"
+        },
+        {
+            "id": 367,
+            "name": "大嘻哈時代",
+            "alias": "therappers"
+        },
+        {
+            "id": 368,
+            "name": "花亦山心之月",
+            "alias": "flower_ariel"
+        },
+        {
+            "id": 369,
+            "name": "創客",
+            "alias": "maker"
+        },
+        {
+            "id": 370,
+            "name": "衝浪",
+            "alias": "surfing"
+        },
+        {
+            "id": 371,
+            "name": "NU'EST",
+            "alias": "nuest"
+        },
+        {
+            "id": 372,
+            "name": "原礦",
+            "alias": "mineral"
+        },
+        {
+            "id": 373,
+            "name": "Dcard Wave Fest",
+            "alias": "dcardwavefest"
+        },
+        {
+            "id": 374,
+            "name": "漫威",
+            "alias": "marvel_studios"
+        },
+        {
+            "id": 375,
+            "name": "曬狗",
+            "alias": "showdogs"
+        },
+        {
+            "id": 376,
+            "name": "YG FAMILY",
+            "alias": "ygfamily"
+        },
+        {
+            "id": 377,
+            "name": "明日方舟",
+            "alias": "arknights"
+        },
+        {
+            "id": 378,
+            "name": "虹彩六號",
+            "alias": "r6"
+        },
+        {
+            "id": 379,
+            "name": "卡娜赫拉",
+            "alias": "kanahei"
+        },
+        {
+            "id": 380,
+            "name": "台灣明星",
+            "alias": "taiwan_celebrity"
+        },
+        {
+            "id": 381,
+            "name": "KISS OF LIFE",
+            "alias": "kiss_of_life"
+        },
+        {
+            "id": 382,
+            "name": "韓綜",
+            "alias": "korea_tvshow"
+        },
+        {
+            "id": 383,
+            "name": "STAYC",
+            "alias": "stayc"
+        },
+        {
+            "id": 384,
+            "name": "蔚藍檔案",
+            "alias": "bluearchive"
+        },
+        {
+            "id": 385,
+            "name": "占星",
+            "alias": "astrology"
+        },
+        {
+            "id": 386,
+            "name": "BIGBANG",
+            "alias": "bigbang"
+        },
+        {
+            "id": 387,
+            "name": "一起聽團吧",
+            "alias": "2024bandbandband"
+        },
+        {
+            "id": 388,
+            "name": "光ＯＯ就很忙了",
+            "alias": "starlinght_bnb"
+        },
+        {
+            "id": 389,
+            "name": "譯者",
+            "alias": "translator"
+        },
+        {
+            "id": 390,
+            "name": "職涯技能修煉場",
+            "alias": "career_skills_training_field"
+        },
+        {
+            "id": 391,
+            "name": "物理治療師",
+            "alias": "physiotherapy"
+        },
+        {
+            "id": 392,
+            "name": "絕區零",
+            "alias": "zenless_zone_zero"
+        },
+        {
+            "id": 393,
+            "name": "實踐大學二手物交流",
+            "alias": "usc_secondhand"
+        },
+        {
+            "id": 394,
+            "name": "火影忍者",
+            "alias": "naruto"
+        },
+        {
+            "id": 395,
+            "name": "聲優",
+            "alias": "voice_actor"
+        },
+        {
+            "id": 396,
+            "name": "來吧！營業中",
+            "alias": "lets_open"
+        },
+        {
+            "id": 397,
+            "name": "歷史",
+            "alias": "history"
+        }
+    ]
+}

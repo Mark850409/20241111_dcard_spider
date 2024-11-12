@@ -1,8 +1,5 @@
 import pandas as pd
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 import undetected_chromedriver as uc
 
@@ -15,6 +12,9 @@ num_comments_to_scrape = int(input("請輸入每篇文章要爬取的留言數�
 
 # 使用 undetected_chromedriver 初始化 Chrome 瀏覽器
 driver = uc.Chrome()
+
+# 將視窗最大化
+driver.maximize_window()
 
 comments = []
 
@@ -44,15 +44,18 @@ for link in article_links:
 
                     # 提取留言內容
                     comment_span = div.find_element(By.XPATH, ".//div[contains(@class, 'd_xa_34')]//span")
-                    comment_text = comment_span.text
+                    comment_text = comment_span.text.strip()
+
+                    # 如果留言為空，跳過該留言
+                    if not comment_text:
+                        continue
 
                     # 提取留言時間
                     time_element = div.find_element(By.XPATH, ".//time")
                     comment_time = time_element.get_attribute("datetime")
 
                     # 如果該留言已經存在於列表中，則跳過
-                    if not any(comment['text'] == comment_text and comment['article_link'] == link for comment in
-                               comments):
+                    if not any(comment['text'] == comment_text and comment['article_link'] == link for comment in comments):
                         # 將學校名稱、留言內容和時間添加到結果列表中
                         comments.append({
                             "article_link": link,
