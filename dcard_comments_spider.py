@@ -1,19 +1,24 @@
 import os
 import pandas as pd
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
 from time import sleep
 import requests
 import undetected_chromedriver as uc
 import shutil
+
+from webdriver_manager.chrome import ChromeDriverManager
+
 # 讀取 CSV 文件，包含文章連結
 article_df = pd.read_csv('dcard_articles.csv')
 article_links = article_df['article_link'].tolist()
 article_titles = article_df['title'].tolist()
+
 # 讓使用者輸入每篇文章要爬取的留言數
 num_comments_to_scrape = int(input("請輸入每篇文章要爬取的留言數量："))
 
 # 使用 undetected_chromedriver 初始化 Chrome 瀏覽器
-driver = uc.Chrome()
+driver = uc.Chrome(service=Service(ChromeDriverManager().install()))
 
 # 將視窗最大化
 driver.maximize_window()
@@ -34,6 +39,13 @@ for index, link in enumerate(article_links):
 
         # 等待頁面載入
         sleep(5)
+
+        # 抓取文章內文
+        try:
+            content_element = driver.find_element(By.XPATH, "//div[contains(@class, 'd_cn_1t d_gk_31 d_7v_5 c1h57ajp')]//div[contains(@class, 'd_xa_34')]//span")
+            article_content = content_element.text.strip()
+        except:
+            article_content = ""
 
         # 抓取文章內的所有圖片
         picture_elements = driver.find_elements(By.XPATH, "//div[contains(@class, 'd_gz_1nzmc2w c1gs4vo7')]//picture/source")
@@ -86,13 +98,15 @@ for index, link in enumerate(article_links):
 
                     # 如果該留言已經存在於列表中，則跳過
                     if not any(comment['text'] == comment_text and comment['article_link'] == link for comment in comments):
-                        # 將學校名稱、留言內容和時間添加到結果列表中
+                        # 將學校名稱、留言內容、時間和文章內文添加到結果列表中
                         comments.append({
                             "title": title,
                             "article_link": link,
                             "school": school_name,
+                            "content": article_content,
                             "text": comment_text,
-                            "time": comment_time
+                            "time": comment_time,
+
                         })
                         scraped_comments += 1
 
@@ -123,7 +137,7 @@ driver.quit()
 # 將結果寫入 CSV 檔案
 if comments:
     df = pd.DataFrame(comments)
-    df.columns = ['title', 'article_link', 'school', 'text', 'time']  # 設定欄位名稱
+    df.columns = ['title', 'article_link', 'school','content','text', 'time']  # 設定欄位名稱
     df.to_csv('comments.csv', index=False, encoding='utf-8-sig')  # 使用 utf-8-sig 編碼寫入 CSV
     print("已成功將留言儲存到 comments.csv 中")
 else:
