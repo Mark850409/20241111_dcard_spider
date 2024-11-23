@@ -3,7 +3,9 @@ import csv
 from time import sleep
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
 # 讀取 JSON 檔案並解析其內容
 def load_json(file_path):
@@ -61,13 +63,15 @@ if __name__ == '__main__':
     else:
         print("無效的選擇，請重新運行程式並輸入有效的選擇。")
         exit()
-
-    # 使用 undetected_chromedriver
-    driver = uc.Chrome()
-    wait = WebDriverWait(driver, 5)
-
+        
     # 使用者輸入滾動次數
     max_scrolls = int(input("請輸入滾動次數: "))
+
+    # 設定 undetected ChromeDriver
+    options = webdriver.ChromeOptions()
+
+    # 初始化 undetected ChromeDriver
+    driver = uc.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
     # 打開指定的網址
     driver.get(url)
@@ -89,8 +93,12 @@ if __name__ == '__main__':
             try:
                 title = article.find_element(By.XPATH, './/h2').text
                 time_element = article.find_elements(By.XPATH, './/time')
+                # 如果沒有標題元素，跳過該筆資料
+                if not title:
+                    continue 
+                # 如果沒有時間元素，跳過該筆資料
                 if not time_element:
-                    continue  # 如果沒有時間元素，跳過該筆資料
+                    continue 
                 time = time_element[0].get_attribute('datetime')
                 summary = article.find_element(By.XPATH, './/div[contains(@class, "d_d8_1nn1f8g")]').text
 
@@ -121,9 +129,13 @@ if __name__ == '__main__':
                     if school_name and "客服小天使" in school_name:
                         continue
 
-                like_count = article.find_element(By.XPATH, './/div[@class="d_a5_1p d_h_1q d_mh_1t d_de_24 d_7v_7 d_d8_2s d_cn_2i d_gk_27 d_dz43bx_1s fnja3xi"]').text
-                comment_count = article.find_element(By.XPATH, './/div[@class="d_a5_1p d_h_1q d_mh_1t d_de_24 d_7v_7 d_d8_2s d_cn_2i d_gk_27 d_dz43bx_1s fnja3xi"]/following-sibling::div').text
-                save_count = article.find_element(By.XPATH, './/div[@class="d_ng_1z d_y6_1w ayeirqn"]').text
+                # 抓取包含所有數值的父元素
+                counts_container = article.find_element(By.XPATH, './/div[contains(@class, "d_7v_7 d_a5_1p d_fu_g5pze7")]')
+
+                # 使用相對位置來獲取 like_count, comment_count, save_count
+                like_count = counts_container.find_element(By.XPATH, './/div[1]').text
+                comment_count = counts_container.find_element(By.XPATH, './/div[2]').text
+                save_count = counts_container.find_element(By.XPATH, './/div[3]').text
 
                 # 強迫將非數值型態轉換為 0
                 like_count = int(like_count) if like_count.isdigit() else 0
