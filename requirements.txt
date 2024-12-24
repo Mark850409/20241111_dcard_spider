@@ -16,3 +16,4 @@ selenium
 webdriver_manager
 fake-useragent
 undetected_chromedriver
+snownlp
