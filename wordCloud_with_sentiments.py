@@ -17,9 +17,6 @@ from sqlalchemy import create_engine
 import pandas as pd
 import gc
 from sklearn.feature_extraction.text import TfidfVectorizer
-import nltk
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
-from ollama import Client
 from snownlp import SnowNLP
 
 # 使用設定值

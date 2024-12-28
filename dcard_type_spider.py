@@ -63,4 +63,9 @@ with open("dcard_type.json", "w", encoding="utf-8") as f:
 print("已成功將看板名稱寫入到 dcard_type.json")
 
 # 關閉瀏覽器
-driver.quit()
+try:
+    driver.quit()
+except Exception as e:
+    # 如果進程已被關閉，這裡會被觸發
+    print(f"關閉 driver 時發生錯誤：{e}")
+
