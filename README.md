@@ -95,7 +95,7 @@ http://localhost:7864
 #### STEP1：執行以下python程式
 
 ```python
-python DrunkdrivingChart.py.py
+python DrunkdrivingChart.py
 ```
 #### STEP2：執行成功後點擊此連結
 http://localhost:7863
