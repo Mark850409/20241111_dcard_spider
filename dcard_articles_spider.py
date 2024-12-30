@@ -175,7 +175,7 @@ if __name__ == '__main__':
         csv_columns = ['title', 'time', 'summary', 'image_url', 'article_link', 'like_count', 'comment_count', 'save_count']
 
     # 將所有文章資料寫入 CSV 文件
-    csv_file = 'dcard_articles.csv'
+    csv_file = 'csv/dcard_articles.csv'
 
     try:
         with open(csv_file, 'w', newline='', encoding='utf-8-sig') as csvfile:
