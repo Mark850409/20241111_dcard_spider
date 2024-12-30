@@ -224,11 +224,11 @@ def create_sentiment_distribution_plots(sentiment_scores):
     """
     創建情感分數的直方圖和核密度估計圖，並加入詳細的軸說明
     """
-    if sentiment_scores.empty:
-        return None, None
+    # 確保數據不為空，且數據量足夠
+    if sentiment_scores.empty or len(sentiment_scores) < 2:
+        print("數據不足以生成核密度估計圖")
+        return None
     
-    colors = sns.color_palette("pastel")
-
     # 創建直方圖
     plt.figure(figsize=(10, 6))
     counts, bins, _ = plt.hist(sentiment_scores, bins=30, color='skyblue', edgecolor='black', alpha=0.7)
@@ -265,21 +265,18 @@ def create_sentiment_distribution_plots(sentiment_scores):
     
     # 創建核密度估計圖
     plt.figure(figsize=(10, 6))
-    sns.kdeplot(data=sentiment_scores, color='skyblue', fill=True)
-    
+    sns.kdeplot(data=sentiment_scores, color='skyblue', fill=True, alpha=0.5,clip=(0, 1), bw_adjust=0.5, kernel='epanechnikov')
     # 添加更詳細的標題和軸標籤
     plt.title('情感分數核密度估計圖\n(顯示情感分數的分布趨勢)', 
-             fontproperties=fm.FontProperties(fname=FONTS, size=14))
+            fontproperties=fm.FontProperties(fname=FONTS, size=14))
     plt.xlabel('情感分數\n(0表示最負面，1表示最正面)', 
-             fontproperties=fm.FontProperties(fname=FONTS, size=12))
+            fontproperties=fm.FontProperties(fname=FONTS, size=12))
     plt.ylabel('密度\n(情感分數在該處聚集的相對趨勢強度)', 
-             fontproperties=fm.FontProperties(fname=FONTS, size=12))
-    
+            fontproperties=fm.FontProperties(fname=FONTS, size=12))
     # 找出密度最高的點
     density = sns.kdeplot(data=sentiment_scores).get_lines()[0].get_data()
     max_density_index = np.argmax(density[1])
     max_density_score = density[0][max_density_index]
-    
     # 添加註解說明最高密度點
     plt.annotate(
         f'情感分數最集中處\n分數約為{max_density_score:.2f}',
@@ -292,10 +289,11 @@ def create_sentiment_distribution_plots(sentiment_scores):
         arrowprops=dict(arrowstyle='->', connectionstyle='arc3,rad=0'),
         fontproperties=fm.FontProperties(fname=FONTS, size=10)
     )
-    
+    # 設置顯示範圍
+    plt.xlim(0, 1)
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
-    
+
     kde_path = "image/sentiment_kde.png"
     plt.savefig(kde_path, format='png', dpi=300)
     plt.close()
